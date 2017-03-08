@@ -1,0 +1,24 @@
+{
+  "name": "asset-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./**/*.spec.js --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "commander": "^2.9.0",
+    "isomorphic-fetch": "^2.2.1",
+    "underscore": "^1.8.3",
+    "url-parse": "^1.1.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "fetch-mock": "^5.9.4",
+    "mocha": "^3.2.0",
+    "mock-require": "^2.0.1"
+  }
+}
